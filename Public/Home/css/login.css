@@ -1,0 +1,251 @@
+/*--S:header--*/
+header{
+	margin: 0 auto;
+	width: 1130px;
+}
+header a{
+	background: url(../img/mistore_logo.png);
+	height: 98px;
+	width: 200px;
+	display: block;
+}
+/*--S:登陆区域--*/
+.cont{
+	background: url(../img/523923ee3d985386d832e082980e4de9.jpg) no-repeat center top;
+	height: 588px;
+	width: 100%;
+	position: relative;
+}
+.cont .wrap{
+	width: 410px;
+	height: 524px;
+	background: #fff;
+	position: absolute;
+	right: 105px;
+	bottom: 35px;
+}
+.wrap .nav{
+	color: #e0e0e0;
+	font-size: 24px;
+	padding: 27px 0 24px;
+	text-align: center;
+}
+.nav .check{
+	color: #f56600;
+}
+.nav a:hover{
+	color: #f56600;
+}
+.nav span{
+	border: 1px solid #e0e0e0;
+	height: 24px;
+	margin: 0 35px;
+	width: 1px;
+}
+.wrap .tab1,.wrap .tab2{
+	width: 348px;
+	margin: 0 auto;
+	display: none;
+}
+#uname,#upass,#uyan{
+	padding: 10px 16px;
+	border: 1px solid #E0E0E0;
+	margin: 10px 0;
+	height: 20px;
+	line-height: 20px;
+	width: 315px;
+}
+#uyan{
+	width: 200px;
+	float: left;
+}
+.yan span{
+	display: block;
+	width: 60px;
+	height: 20px;
+	margin: 10px 0;
+	margin-left: 20px;
+	float: left;
+	padding: 10px 16px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-style:italic;
+	font-family: "楷体";
+}
+#login{
+	background: #f56600;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	color: #fff;
+	cursor: pointer;
+	margin:10px 0;
+}
+.show{
+	font-size: 14px;
+	color: #f56600;
+	clear:both;
+	display: none;
+}
+.show i{
+	margin-right: 3px;
+}
+.tab1  .mian{
+	float: left;
+	color: #f56600;
+}
+.mian span{
+	margin-left: 10px;
+	vertical-align: 1px;
+	display: inline-block;
+
+}
+.tab1  .reset{
+	float: right;
+	color: #999;
+}
+.tab1  .reset span{
+	margin: 0 5px;
+}
+.tab1  .reset a{
+	color: #999;
+}
+.tab1  .reset  a:hover{
+	color: #f56600;
+}
+.tab1 .other{
+	padding-top: 60px;
+	margin: 0 auto;
+}
+.tab1 .other span{
+	position: relative;
+	display: block;
+	text-align: center;
+	color: #bbb;
+}
+.tab1 .other span:before,.tab1 .other span:after{
+	content: "";
+	position: absolute;
+	border-top: 1px solid #bbb;
+	width: 120px;
+	height: 1px;
+	position: absolute;
+	top: 12px;
+}
+.tab1 .other span:before{
+	left: 0;
+}
+.tab1 .other span:after{
+	right: 0;
+}
+.tab1 .other a:nth-of-type(1){
+	margin-left:60px;
+}
+.tab1 .other a{
+	margin: 20px 17px;
+	border-radius: 50%;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	color: #757575;
+	background: #757575;
+	text-align: center;
+	line-height: 30px;
+}
+.tab1 .other a i{
+	height: 18px;
+	width: 18px;
+	line-height: 18px;
+	vertical-align: middle;
+	display: block;
+	margin: 4px auto 0;
+	color: #fff;
+	font-size: 18px;
+}
+.tab1 .other a:nth-of-type(1):hover{background: #0288d1;}
+.tab1 .other a:nth-of-type(2):hover{background: #d32f2f;}
+.tab1 .other a:nth-of-type(3):hover{background: #0ae;}
+.tab1 .other a:nth-of-type(4):hover{background: #00d20d;}
+
+.wrap .tab2 img{
+	text-align: center;
+	padding-top: 78px;
+	margin-left: 90px;
+}
+.wrap .tab2 p{
+	text-align: center;
+	font-size: 14px;
+	color: #757575;
+	letter-spacing: 1px;
+}
+.wrap .tab2 p:nth-of-type(1){
+	padding-top: 14px;
+}
+.wrap .tab2 p span{
+	color: #f56600;
+}
+.wrap .select{
+	display: block;
+}
+
+/*--S:success--*/
+#suc{
+	width: 200px;
+	height: 200px;
+	background: skyblue;
+	border-radius: 20px;
+	text-align: center;
+	overflow: hidden;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 150px;
+	display: none;
+}
+#suc h3{
+		font-size: 20px;
+		margin: 20px auto;
+		margin-top: 30px;
+		font-weight: 600;
+}
+#suc span,#suc p{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin: 30px auto;
+}
+/*--E:success--*/
+/*--E:登陆区域--*/
+/*--E:header--*/
+/*--S:content--*/
+/*--E:content--*/
+/*--S:foot区域--*/
+footer{
+	height: 80px;
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: center;
+}
+footer ul{
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer ul li{
+	float: left;
+	color: #333;
+	margin: 0 5px;
+}
+footer ul li a{
+	margin-right: 5px;
+}
+footer p{
+	margin-top: 10px;
+	clear: both;
+	color: #9d9d9d;
+}
+/*--E:foot区域--*/

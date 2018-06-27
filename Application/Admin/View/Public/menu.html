@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小米MIX</title>
+    <!-- Bootstrap Styles-->
+    <link href="{$Think.const.ADMIN_CSS_URL}bootstrap1.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="{$Think.const.ADMIN_CSS_URL}font-awesome1.css" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+    <link href="{$Think.const.ADMIN_CSS_URL}morris-0.4.3.min.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="{$Think.const.ADMIN_CSS_URL}custom-styles1.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="{$Think.const.ADMIN_CSS_URL}cssCharts.css">
+</head>
+<body>
+<style>
+    #main-menu .nav-second-level li a{
+        background:#585858;
+        border-bottom:1px solid #383838;
+    }
+    #main-menu .nav-second-level li a:hover{
+        color:#000;
+        background:#fff;
+    }
+</style>
+<nav class="navbar-default navbar-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="main-menu">
+
+            <li>
+                <a href="#"><i class="fa fa-dashboard"></i> 最新活动<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Active/index">公告列表</a>
+                    </li>
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Active/add_active">公告添加</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-desktop"></i> 幻灯片设置<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Photo/index">幻灯片列表</a>
+                    </li>
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Photo/add_photo">幻灯片添加</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-table"></i> 商品管理<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Goods/index">商品列表</a>
+                    </li>
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Goods/add_goods">商品添加</a>
+                    </li>
+                </ul>
+            </li>
+            <if condition="$_SESSION['gid'] eq 1">
+            <li>
+                <a href="#"><i class="fa fa-edit"></i> 权限管理<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Admin/index">管理员列表</a>
+                    </li>
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Admin/add_admin">管理员添加</a>
+                    </li>
+                </ul>
+            </li>
+                </if>
+            <li>
+                <a href="#"><i class="fa fa-bar-chart-o"></i> 用户管理<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/User/index">用户列表</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-qrcode"></i> 订单管理<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Order/index">订单列表</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-qrcode"></i> 评论管理<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Comment/index">评论列表</a>
+                    </li>
+                    <li>
+                        <a href="__ROOT__/index.php/Admin/Comment/add_comment">评论添加</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+</nav>
+</body>
+</html>

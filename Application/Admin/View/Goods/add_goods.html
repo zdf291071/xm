@@ -1,0 +1,157 @@
+<include file="Public:header"/>
+<style>
+    .panel-default th.group-title {
+        text-align: left;
+        font-weight:normal;
+        font-size:18px;
+        border:1px solid #E8E8E8;
+    }
+    .panel-default th {
+        border:1px solid #E8E8E8;
+        height:24px;
+        background:#ccc;
+        font-size:12px;
+        font-weight:700;
+        text-align:center;
+        color:#444;
+        padding-left:5px;
+    }
+
+    .panel-default td {
+        line-height: 22px;
+        padding:5px;
+    }
+
+    .panel-default td {
+        background:#fff;
+        border:1px solid #E8E8E8;
+    }
+
+</style>
+
+<body>
+<div id="wrapper">
+    <include file="Public:top"/>
+
+    <!--/. NAV TOP  -->
+    <include file="Public:menu"/>
+
+
+    <div id="page-wrapper">
+        <div class="header">
+            <h1 class="page-header">
+                <small>Welcome xiaomi</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="__ROOT__/index.php/Admin/Index">主页</a></li>
+                <li><a href="#">商品管理</a></li>
+                <li class="active">商品添加</li>
+            </ol>
+
+        </div>
+
+        <div class="col-md-8 col-sm-12 col-xs-12" style="width:1060px;margin-left:16px;">
+
+
+            <div class="panel panel-default">
+
+                <form name="theForm" id="demo" action="{:U('Goods/add_goods')}" method="POST" enctype="multipart/form-data" onSubmit="return Validator.Validate(this,2)">
+                    <table width="100%" bgcolor="white">
+                        <tr>
+                            <td align="right">商品名称：</td>
+                            <td><input type="text" name="goods_name" class="input_text" style="width:350px" dataType="Require" msg="未填写商品名称" />&nbsp;<font color="red"><b>*</b></font>&nbsp;<span id="us"></span></td>
+                        </tr>
+
+
+                        <tr>
+                            <td align="right">商品价格：</td>
+                            <td><input type="text" name="goods_price" class="input_text" dataType="Number"  msg="未填写商品重量或，只能为数字!" style="width:150px" />&nbsp;<font color="red"><b>*</b></font></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">库存：</td>
+                            <td><input type="text" name="goods_number" class="input_text" dataType="Number"  msg="未填写商品库存，只能为数字!" style="width:150px" />&nbsp;<font color="red"><b>*</b></font></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">商品展示图片1：</td>
+                            <td><input type="file" name="photo[]" dataType="Require"  msg="至少上传一张商品展示图"/>&nbsp;<font color="red"><b>*</b></font></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">商品展示图片2：</td>
+                            <td><input type="file" name="photo[]"/></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">商品分类：</td>
+                            <td>
+                                <select name="goods_catagory_id" class="input_text">
+                                    <option value="1">手机</option>
+                                    <option value="2">电脑，电视机</option>
+                                    <option value="3">智能用品</option>
+                                    <option value="4">旅游用品</option>
+                                    <option value="5">日常用品</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">商品详情：</td>
+                            <td><textarea id="details" name="goods_introduce" style="width:95%;height:400px"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                                <input type="submit" class="button" value=" 确定 " >
+                                <input type="reset" class="button" value=" 重置 ">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+        </div>
+
+
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->
+</div>
+<!-- /. WRAPPER  -->
+<!-- JS Scripts-->
+<!-- jQuery Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="{$Think.const.ADMIN_JS_URL}bootstrap.min.js"></script>
+
+<!-- Metis Menu Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery.metisMenu.js"></script>
+<!-- Morris Chart Js -->
+<script src="{$Think.const.ADMIN_JS_URL}raphael-2.1.0.min.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}morris.js"></script>
+
+
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart-data.js"></script>
+
+<script src="{$Think.const.ADMIN_JS_URL}jquery.chart.js"></script>
+
+<!-- Custom Js -->
+<script src="{$Think.const.ADMIN_JS_URL}custom-scripts.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+

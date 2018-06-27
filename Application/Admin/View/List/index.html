@@ -1,0 +1,119 @@
+<include file="Public:header"/>
+<style>
+    .panel-default th.group-title {
+        text-align: left;
+        font-weight:normal;
+        font-size:18px;
+        border:1px solid #E8E8E8;
+    }
+    .panel-default th {
+        border:1px solid #E8E8E8;
+        height:24px;
+        background:#ccc;
+        font-size:12px;
+        font-weight:700;
+        text-align:center;
+        color:#444;
+        padding-left:5px;
+    }
+
+    .panel-default td {
+        line-height: 22px;
+        padding:5px;
+    }
+
+    .panel-default td {
+        background:#fff;
+        border:1px solid #E8E8E8;
+    }
+
+</style>
+
+<body>
+<div id="wrapper">
+    <include file="Public:top"/>
+
+    <!--/. NAV TOP  -->
+    <include file="Public:menu"/>
+
+
+    <div id="page-wrapper">
+        <div class="header">
+            <h1 class="page-header">
+                <small>Welcome xiaomi</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="__ROOT__/index.php/Admin/Index">主页</a></li>
+                <li><a href="#">分类管理</a></li>
+                <li class="active">分类列表</li>
+            </ol>
+
+        </div>
+
+        <div class="col-md-8 col-sm-12 col-xs-12" style="width:1060px;margin-left:16px;">
+
+
+            <div class="panel panel-default">
+
+                <form action="{:U('List/del_list')}" method="POST">
+                    <table width="100%" cellspacing="1" cellpadding="2" id="list-table">
+                        <tr>
+                            <th>分类名称</th>
+                            <th>父级分类</th>
+                            <th>操作</th>
+                        </tr>
+
+                        <volist name="data" id="vo" key="k">
+                            <tr align="center">
+                                <td align="left">
+                                    <input type="text" disabled="disabled" class="check" name="{$vo.list_name}" value="{$vo.list_name}">
+                                <td width="10%" align="center">{$vo.list_pname}</td>
+                                <td align="center" width="20%">
+                                    <a href="{:U('Admin/List/edit_list/')}?name={$vo['list_name']}">编辑</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                                    <a href="{:U('Admin/List/del_list/')}?list_name={$vo['list_name']}">删除</a>
+                                </td>
+                            </tr>
+                        </volist>
+
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->
+</div>
+<!-- /. WRAPPER  -->
+<!-- JS Scripts-->
+<!-- jQuery Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="{$Think.const.ADMIN_JS_URL}bootstrap.min.js"></script>
+
+<!-- Metis Menu Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery.metisMenu.js"></script>
+<!-- Morris Chart Js -->
+<script src="{$Think.const.ADMIN_JS_URL}raphael-2.1.0.min.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}morris.js"></script>
+
+
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart-data.js"></script>
+
+<script src="{$Think.const.ADMIN_JS_URL}jquery.chart.js"></script>
+
+<!-- Custom Js -->
+<script src="{$Think.const.ADMIN_JS_URL}custom-scripts.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>

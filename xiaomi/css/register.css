@@ -1,0 +1,177 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #F9F9F9;
+	overflow: hidden;
+}
+
+/*---S:注册内容区域---*/
+.wrap{
+	width: 900px;
+	height: 530px;
+	background: #fff;
+	border-radius: 10px;
+	margin: 40px auto;
+}
+.wrap .cont{
+	width: 400px;
+	height: 530px;
+	margin: 0 auto;
+	position: relative;
+}
+.cont a{
+	background: url(../img/milogo.png);
+	display: block;
+	width: 49px;
+	cursor: pointer;
+	height: 48px;
+	margin: 0 auto;
+}
+.cont h2{
+	font-size: 26px;
+	font-weight: normal;
+	color: #333;
+	line-height: 1.5;
+	text-align: center;
+	margin: 10px 0;
+}
+#xq i,#xq em{
+	color: red;
+	font-size: 20px;
+	font-style: normal;
+	vertical-align: -4px;
+	margin-right: 5px;
+}
+#xq p{
+	margin: 10px auto;
+	width: 300px;
+	text-align: center;
+	color: #333;
+}
+#xq p:nth-child(1){
+	color: #A68517;
+}
+#xq b{
+	font-size: 14px;
+	margin-right: 10px;
+}
+#xq input{
+	padding-left: 2px;
+	width: 198px;
+	height: 25px;
+	background: #ccc;
+	border-radius: 5px;
+}
+#xq input:focus{
+	background: skyblue;
+}
+#xq #bj{
+	width: 200px;
+	height: 30px;
+	margin: 0 auto;
+	display:block;
+	background: #FFFFCB;
+	border-radius: 10px;
+	line-height: 30px;
+	border: 1px solid transparent;
+}
+#xq p:last-child{
+	margin-top: 20px;
+}
+#xq #ti{
+	width: 200px;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	background: #ff6700;
+	border: 1px solid rgba(186,186,186,0.3);
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+}
+#xq #ti:hover{
+	background: #ff9366;
+}
+#xq p span{
+	width: 10px;
+	margin-left: 5px;
+	display: inline-block;
+}
+#mmqd b{
+	margin-right: 24px;
+	float: left;
+}
+#mmqd i{
+	display: block;
+	width: 60px;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	border: 1px solid #999;
+	margin: 0 2px;
+	background: #E4E4E4;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+
+}
+#mmqd i:nth-of-type(1){
+	margin-left: 0px;
+}
+#mmqd i:nth-of-type(3){
+	margin-right: 0px;
+}
+/*---E:注册内容区域---*/
+/*--S:success--*/
+#suc{
+	width: 200px;
+	height: 200px;
+	background: skyblue;
+	border-radius: 20px;
+	text-align: center;
+	overflow: hidden;
+	color: #fff;
+	position: absolute;
+	display: none;
+}
+#suc h3{
+		font-size: 20px;
+		margin: 20px auto;
+		margin-top: 30px;
+		font-weight: 600;
+}
+#suc span,#suc p{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin: 30px auto;
+}
+/*--E:success--*/
+/*--S:foot区域--*/
+footer{
+	height: 80px;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer ul{
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer ul li{
+	float: left;
+	color: #333;
+	margin: 0 5px;
+}
+footer ul li a{
+	margin-right: 5px;
+}
+footer p{
+	margin-top: 10px;
+	clear: both;
+	color: #9d9d9d;
+}
+/*--E:foot区域--*/

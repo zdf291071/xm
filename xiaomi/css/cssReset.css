@@ -1,0 +1,44 @@
+html {
+	color:#333;
+	background:#fff;
+	font: 14px/1.5  "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,form,fieldset,legend,input,textarea,p,th,header,footer,aside,article,nav,
+td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,
+img,
+input,
+button {
+	border:0 none;
+}
+ol,
+ul {
+	list-style:none;
+}
+h1,
+h2,
+h3{
+	font-size:100%;
+	font-weight:normal;
+}
+input,
+textarea,
+select {
+	font-family:inherit;
+	outline: none;
+	font-size:inherit;
+	font-weight:inherit;
+	*font-size:100%; /*to enable resizing for IE*/
+}
+a{
+	text-decoration: none;
+	color: #333;
+	outline: none;
+}

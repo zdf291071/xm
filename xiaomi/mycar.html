@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小米商场 -我的购物车</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="icomoon/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cssReset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mycar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--S:header-->
+		<header>
+			<div class="container">
+				<div class="topbar-nav">
+					<ul>
+						<li><a href="list.html">小米商城</a><span>|</span></li>
+						<li><a href="javascript:void(0)">MIUI</a><span>|</span></li>
+						<li><a href="javascript:void(0)">米聊</a><span>|</span></li>
+						<li><a href="javascript:void(0)">游戏</a><span>|</span></li>
+						<li><a href="javascript:void(0)">多看阅读</a><span>|</span></li>
+						<li><a href="javascript:void(0)">云服务</a><span>|</span></li>
+						<li><a href="javascript:void(0)">金融</a><span>|</span></li>
+						<li><a href="javascript:void(0)">米币</a><span>|</span></li>
+						<li><a href="javascript:void(0)">小米商城手机版</a><span>|</span></li>
+						<li><a href="javascript:void(0)">问题反馈</a><span>|</span></li>
+						<li><a href="javascript:void(0)">Select Region</a></li>
+					</ul>
+				</div>
+				<div class="topbar-cart">
+					<a href="mycar.html" id="mycar"><span class="style icon-cart"></span>购物车<i >( </i><i> 0 </i><i > )</i></a>
+					<div class="showr-cart">
+						<div class="loading"></div>
+						<div class="loader"><span></span><span></span><span></span></div>
+					</div>
+					<div class="showr-list"><ul></ul>
+						<div class="jie">
+							<a href="javascript:void(0)">
+								<span></span><br />
+								<span></span>
+							</a>
+							<a href="mycar.html">去购物车结算</a>
+						</div>
+					</div>
+				</div>
+				<div class="topbar-user">
+					<div id="infor">
+						<div id="infor1">
+							<a href="login.html">登录</a><span>|</span>
+							<a href="register.html">注册</a><span>|</span>
+						</div>
+						<div id="infor2">
+							<div id="infor3"><a href="javascript:void(0)" id="myname"></a><b class="style icon-circle-down"></b>
+								<ul>
+									<li><a href="javascript:void(0)">个人中心</a></li>
+									<li><a href="javascript:void(0)">评价晒单</a></li>
+									<li><a href="javascript:void(0)">我的喜欢</a></li>
+									<li><a href="javascript:void(0)">小米账户</a></li>
+									<li><a href="javascript:void(0)" id="logout">退出登录</a></li>
+								</ul>
+							</div><span>|</span>
+						</div>
+					</div>
+				
+					<a href="javascript:void(0)">消息通知</a>
+				</div>
+			</div>
+		</header>
+		<!--E:header-->
+		<!--S:分界线-->
+		<div class="site-header">
+			<div class="container">
+				<a href="index.html"></a>
+				<h2>我的购物车</h2>
+				<p>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+			</div>
+		</div>
+		<!--E:分界线-->
+		<!--S:商品列表页面-->
+		<div class="cartBox">
+			<div class="container">
+				<table>
+			<thead>
+				<tr>
+					<td><input type="checkbox" id="all"/><span>全选</span></td>
+					<td>图片</td>
+					<td>商品名称</td>
+					<td>单价</td>
+					<td>数量</td>
+					<td>小计</td>
+					<td>操作</td>
+				</tr>
+			</thead>
+			<tbody id="tbody1">
+			</tbody>
+		</table>
+			</div>
+			<div class="container">
+				<div class="cartBar">
+					<div class="section-left">
+						<a href="list.html">继续购物</a>
+						<span>共<i id="cartBartotal">1</i>件商品,已选择<b id="select">0</b>件</span>
+					</div>
+					<div class="section-right">
+						<span>合计:<em>0</em>元</span>
+						<a href="javascript:void(0)">去结算</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--E:商品列表页面-->
+		<!--S:确定删除页面-->
+		<div class="sure">
+			<div class="con-sure">
+				<a href="javascript:void(0)">x</a>
+				<h3>确定删除吗？</h3>
+				<div class="btn-alert">
+					<button id="alertCancel">取消</button>
+					<button id="alertOk">确定</button>
+				</div>
+			</div>
+		</div>
+		<!--E:确定删除页面-->
+		<!--S:创建网页footer底部模板-->
+		<footer>
+			<nav></nav>
+			<nav></nav>
+		</footer>
+			<script id="moban" type="text/html"> 
+			<ul> 
+			 {{each list as value}} 
+			  <li><a href="javascript:void(0)">{{#value}}</a></li> 
+			 {{/each}} 
+			</ul> 
+		</script>
+		<script id="test" type="text/html"> 
+			<div>
+				{{include 'moban'}}
+			</div>
+		</script>
+		<script id="moban1" type="text/html"> 
+		    {{each dd}}
+		        <dd><a href="javascript:void(0)">{{$value.dd1}}</a></dd>
+		        <dd><a href="javascript:void(0)">{{$value.dd2}}</a></dd>
+		        <dd><a href="javascript:void(0)">{{$value.dd3}}</a></dd>
+		        <!--{{if $value.dd4}}
+		         <dd><a href="#">{{$value.dd4}}</a></dd>
+		        {{/if}}-->
+		    {{/each}}
+		</script>
+		<script id="test1" type="text/html"> 
+			<div>
+				{{each list1}} 
+				<dl>
+				  <dt>{{$value.dt}}</dt>
+				  {{include 'moban1' $value}}
+				</dl> 
+				 {{/each}}	
+				 <div>
+					<p>{{phone}}</p>
+					<p>{{time}}<br />{{shou}}</p>
+					<a href="javascript:void(0)">{{#zai}}</a>
+				</div>
+			</div>
+		</script>
+		<script id="test2" type="text/html">
+			<div>
+				<div>{{title}}</div>
+				<div>
+					<ul> 
+					 {{each list2}} 
+					  <li><a href="javascript:void(0)">{{$value}}</a></li> 
+					 {{/each}} 
+					</ul>
+					<ul> 
+					 {{each list3}} 
+					  <li><a href="javascript:void(0)">{{$value}}</a></li> 
+					 {{/each}} 
+					</ul>
+					<p>{{jubao}}</p>
+				</div>
+				<div>
+					{{each list4}} 
+					<a href="javascript:void(0)"><img src="{{$value}}" alt=""/></a>
+					{{/each}} 
+				</div>
+			</div>
+			<div>{{title1}}</div>
+		</script>
+		<!--E:创建网页footer底部模板-->
+		<!--传入底部模板数据-->
+		<script src="js/footmb.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/mycar.js" type="text/javascript" charset="utf-8"></script>

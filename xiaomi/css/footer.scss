@@ -1,0 +1,179 @@
+@mixin auto($value:0px){
+    width: 1226px;
+    margin: 0 auto;
+    padding-top: $value;
+}
+@mixin line($value1){
+     height: $value1;
+     line-height: $value1;
+}
+$e0:#e0e0e0;
+$b0:#b0b0b0;
+$f6:#FF6700;
+.none{
+     border-right: none;
+}
+footer{
+    width: 100%;
+    background: #FAFAFA;
+}
+footer{
+    >nav:nth-of-type(1){
+        height: 270px;
+        background: #fff;
+        >div:nth-of-type(1){
+            border-bottom: 1px solid  $e0;
+            height: 55px;
+            @include auto(25px);
+            >ul li{
+                float: left;
+                @include line(25px);
+                text-align: center;
+                border-right: 1px solid $e0;
+                font-size: 16px;
+                width: 19.8%;
+                >a{
+                    color: #616161;
+                    >span{
+                        margin-right: 6px;
+                        font-size: 24px;
+                        line-height: 24px;
+                        vertical-align: -4px;
+                    }
+                 }
+                 >a:hover{
+                     color: $f6;
+                 }
+            }
+             li:last-child{
+                @extend .none;
+             }
+        }
+        >div:nth-of-type(2){
+             @include auto(25px);
+            height: 270-80-25px;
+            >dl{
+                float: left;
+                height: 112px;
+                margin: 0;
+                width: 160px;
+                >dt{
+                    color: #424242;
+                    font-size: 14px;
+                    line-height: 1.25;
+                    margin: -1px 0 26px;
+                }
+                >dd{
+                    font-size: 12px;
+                    margin: 10px 0;
+                    >a{
+                        color: #757575;
+                    }
+                     >a:hover{
+                     color: $f6;
+                    }
+                }
+            }
+            >div:nth-of-type(1){
+            border-left: 1px solid $e0;
+            color: #616161;
+            float: right;
+            height: 112px;
+            text-align: center;
+            width: 215px;
+            p{
+                font-size: 12px;
+                margin: 0 0 16px;
+            }
+            >p:nth-of-type(1){
+                color: $f6;
+                font-size: 22px;
+                line-height: 1;
+                margin: 0 0 5px;
+            }
+            a{
+                color: $f6;
+                display: inline-block;
+                width: 118px;
+               @include line(28px);
+                font-size: 12px;
+                border: 1px solid #ff6700;
+                cursor: pointer;
+                >span{
+                    margin-right: 4px;
+                }
+            }
+            a:hover{
+                color: #fff;
+                background: #f25807;
+                border-color: #f25807;
+                transition: all 0.6s;
+            }
+        }
+        }
+        
+    }
+    >nav:nth-child(2){
+        padding: 30px 0;
+        >div:nth-of-type(1){
+            @include auto;
+            >div:nth-of-type(1){
+            background: url(../img/xm-logo.png) no-repeat scroll 50% 50%;
+            float: left;
+            height: 57px;
+            width: 56px;
+            margin-left: 15px;
+            text-indent: -9999em;
+        }
+        >div:nth-of-type(2){
+            float: left;
+            color: $b0;
+            margin-left: 15px;
+            >ul li{
+                float: left;
+                a{
+                    color: #757575;
+                    border-right: 1px solid $b0;
+                    font-size: 12px;
+                    margin-right: 3px;
+                    padding-right: 3px;
+                }
+                a:hover{
+                    color: #FF8200;
+                }
+            }
+            >ul li:last-of-type a{
+                @extend .none;
+            }
+            >ul:nth-of-type(2) li a{
+               @extend .none;
+                color: $b0;
+            }
+            >p{
+                float: left;
+                font-size: 12px;
+            }
+        }
+        >div:nth-of-type(3){
+            float: left;
+            height: 28px;
+            margin-left: 50px;
+            >a{
+                display: inline-block;
+                height: 28px;
+                width: 85px;
+                margin: 0 2px;
+                }
+            }
+        }
+        >div:nth-of-type(2){
+            clear: both;
+            height: 19px;
+            width: 267px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background: url(../img/slogan2016.png) no-repeat scroll center 0;
+            text-indent: -9999em;
+        }
+    }
+}

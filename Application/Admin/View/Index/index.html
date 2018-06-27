@@ -1,0 +1,202 @@
+﻿<include file="Public:header"/>
+<style>
+
+   .panel-default th.group-title {
+        text-align: left;
+        font-weight:normal;
+        font-size:18px;
+       border:1px solid #E8E8E8;
+    }
+    .panel-default th {
+        border:1px solid #E8E8E8;
+        height:24px;
+        background:#ccc;
+        font-size:12px;
+        font-weight:700;
+        text-align:center;
+        color:#444;
+        padding-left:5px;
+    }
+
+    .panel-default td {
+        line-height: 22px;
+        padding:5px;
+    }
+
+    .panel-default td {
+        background:#fff;
+        border:1px solid #E8E8E8;
+    }
+
+</style>
+
+<body>
+    <div id="wrapper">
+        <include file="Public:top"/>
+        <include file="Public:menu"/>
+
+		<div id="page-wrapper">
+		  <div class="header"> 
+                        <h1 class="page-header">
+                             <small>Welcome xiaomi</small>
+                        </h1>
+						<ol class="breadcrumb">
+					  <li><a href="__ROOT__/index.php/Admin/Index/">主页</a></li>
+					</ol> 
+									
+		</div>
+            <div id="page-inner">
+
+                <!-- /. ROW  -->
+	
+		<div class="row">
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>待发货订单数</h4>
+						<div class="easypiechart" id="easypiechart-blue" data-percent="10" ><span class="percent">10</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>未确认订单数</h4>
+						<div class="easypiechart" id="easypiechart-orange" data-percent="55" ><span class="percent">5</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>待支付订单数</h4>
+						<div class="easypiechart" id="easypiechart-teal" data-percent="84" ><span class="percent">4</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>已成交订单数</h4>
+						<div class="easypiechart" id="easypiechart-red" data-percent="46" ><span class="percent">0</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.row-->
+			
+		
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder blue">
+                            <div class="panel-left pull-left blue">
+                                <i class="fa fa-eye fa-5x"></i>
+                                
+                            </div>
+                            <div class="panel-right">
+								<h3>{$goods}</h3>
+                               <strong> Daily Visits</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder blue">
+                              <div class="panel-left pull-left blue">
+                                <i class="fa fa-shopping-cart fa-5x"></i>
+								</div>
+                                
+                            <div class="panel-right">
+							<h3>{$mycar}</h3>
+                               <strong> Sales</strong>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder blue">
+                            <div class="panel-left pull-left blue">
+                                <i class="fa fa fa-comments fa-5x"></i>
+                               
+                            </div>
+                            <div class="panel-right">
+							 <h3>{$comment}</h3>
+                               <strong> Comments </strong>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary text-center no-boder blue">
+                            <div class="panel-left pull-left blue">
+                                <i class="fa fa-users fa-5x"></i>
+                                
+                            </div>
+                            <div class="panel-right">
+							<h3>{$user_num} </h3>
+                             <strong>No. of Visits</strong>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="col-md-8 col-sm-12 col-xs-12" style="width:1060px;margin-left:-16px;">
+
+
+                        <div class="panel panel-default">
+                            <table width="100%" cellspacing="1" cellpadding="3">
+                                <tr>
+                                    <th class="group-title" colspan="4">系统信息</th>
+                                </tr>
+
+                                <foreach name="data.info" item="v">
+                                    <tr class="row"><td width="15%">{$key}</td><td>{$v}</td></tr>
+                                </foreach>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+			
+
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="{$Think.const.ADMIN_JS_URL}jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="{$Think.const.ADMIN_JS_URL}bootstrap.min.js"></script>
+	 
+    <!-- Metis Menu Js -->
+    <script src="{$Think.const.ADMIN_JS_URL}jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="{$Think.const.ADMIN_JS_URL}raphael-2.1.0.min.js"></script>
+    <script src="{$Think.const.ADMIN_JS_URL}morris.js"></script>
+	
+	
+	<script src="{$Think.const.ADMIN_JS_URL}easypiechart.js"></script>
+	<script src="{$Think.const.ADMIN_JS_URL}easypiechart-data.js"></script>
+	
+	 <script src="{$Think.const.ADMIN_JS_URL}jquery.chart.js"></script>
+	
+    <!-- Custom Js -->
+    <script src="{$Think.const.ADMIN_JS_URL}custom-scripts.js"></script>
+
+      <script>
+    
+      </script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<include file="Public:header"/>
+<style>
+    .panel-default th.group-title {
+        text-align: left;
+        font-weight:normal;
+        font-size:18px;
+        border:1px solid #E8E8E8;
+    }
+    .panel-default th {
+        border:1px solid #E8E8E8;
+        height:24px;
+        background:#ccc;
+        font-size:12px;
+        font-weight:700;
+        text-align:center;
+        color:#444;
+        padding-left:5px;
+    }
+
+    .panel-default td {
+        line-height: 22px;
+        padding:5px;
+    }
+
+    .panel-default td {
+        background:#fff;
+        border:1px solid #E8E8E8;
+    }
+
+</style>
+
+<body>
+<div id="wrapper">
+    <include file="Public:top"/>
+
+    <!--/. NAV TOP  -->
+    <include file="Public:menu"/>
+
+
+    <div id="page-wrapper">
+        <div class="header">
+            <h1 class="page-header">
+                <small>Welcome xiaomi</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="__ROOT__/index.php/Admin/Index">主页</a></li>
+                <li><a href="#">幻灯片管理</a></li>
+                <li class="active">幻灯片列表</li>
+            </ol>
+
+        </div>
+
+        <div class="col-md-8 col-sm-12 col-xs-12" style="width:1060px;margin-left:16px;">
+
+            <div class="panel panel-default">
+
+                <form action="{:U('Admin-Slide/del_slide')}" method="GET">
+                    <table width="100%" cellspacing="1" cellpadding="3" id="table">
+                        <tr>
+                            <th width="5%"><a href="###" title="点击对列表排序">编号<img src="{$Think.const.ADMIN_IMG_URL}sort_desc.gif"></a></th>
+                            <th width="85%">预览</th>
+                            <th width="10%">操作</th>
+                        </tr>
+
+                        <volist name="data" id="v" key="k">
+                            <tr>
+                                <td id="id" align="center">{$v.photo_id}</td>
+                                <td id="banna" align="center"><img width="360" height="80" src="{$Think.const.IMG_UPLOAD}{$v.photo_src}"></td>
+                                <td align="center">
+                                    <a title="浏览" href="{:U('Admin/Photo/edit_photo/')}?id={$v.photo_id}"><img width="16" height="16" border="0" src="{$Think.const.ADMIN_IMG_URL}icon_edit.gif"></a>
+                                    <a title="移除" href="{:U('Admin/Photo/del_photo/')}?id={$v.photo_id}"><img width="16" height="16" border="0" src="{$Think.const.ADMIN_IMG_URL}icon_drop.gif"></a>
+                                </td>
+                            </tr>
+                        </volist>
+                    </table>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->
+</div>
+<!-- /. WRAPPER  -->
+<!-- JS Scripts-->
+<!-- jQuery Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="{$Think.const.ADMIN_JS_URL}bootstrap.min.js"></script>
+
+<!-- Metis Menu Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery.metisMenu.js"></script>
+<!-- Morris Chart Js -->
+<script src="{$Think.const.ADMIN_JS_URL}raphael-2.1.0.min.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}morris.js"></script>
+
+
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart-data.js"></script>
+
+<script src="{$Think.const.ADMIN_JS_URL}jquery.chart.js"></script>
+
+<!-- Custom Js -->
+<script src="{$Think.const.ADMIN_JS_URL}custom-scripts.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>

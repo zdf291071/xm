@@ -1,0 +1,143 @@
+<include file="Public:header"/>
+<style>
+    .panel-default th.group-title {
+        text-align: left;
+        font-weight:normal;
+        font-size:18px;
+        border:1px solid #E8E8E8;
+    }
+    .panel-default th {
+        border:1px solid #E8E8E8;
+        height:24px;
+        background:#ccc;
+        font-size:12px;
+        font-weight:700;
+        text-align:center;
+        color:#444;
+        padding-left:5px;
+    }
+
+    .panel-default td {
+        line-height: 22px;
+        padding:5px;
+    }
+
+    .panel-default td {
+        background:#fff;
+        border:1px solid #E8E8E8;
+    }
+
+</style>
+
+<body>
+<div id="wrapper">
+    <include file="Public:top"/>
+
+    <!--/. NAV TOP  -->
+    <include file="Public:menu"/>
+
+
+    <div id="page-wrapper">
+        <div class="header">
+            <h1 class="page-header">
+                <small>Welcome xiaomi</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="__ROOT__/index.php/Admin/Index">主页</a></li>
+                <li><a href="#">评论管理</a></li>
+                <li class="active">添加评论</li>
+            </ol>
+
+        </div>
+
+        <div class="col-md-8 col-sm-12 col-xs-12" style="width:1060px;margin-left:16px;">
+
+
+            <div class="panel panel-default">
+
+                <form name="theForm" id="demo" action="<{:U('Admin-Comment/add_comment_sub')}>" method="post" onSubmit="return Validator.Validate(this,2)">
+                    <table width="100%" bgcolor="white">
+                        <tr>
+                            <td align="right">咨询内容：</td>
+                            <td><textarea name="content" style="width:50%;border:1px solid #99CCFF" rows="4" dataType="LimitB" min="8" max="200"  msg="咨询内容必须在[4,100]个字之内"></textarea><span class="require-field">*</span></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">联系方式：</td>
+                            <td><input type="text" name="contact" class="input_text news_title" ></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">用户名：</td>
+                            <td><input type="text" name="author" class="input_text news_title" dataType="Require" msg="用户名必填"><span class="require-field">*</span></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">评论时间：</td>
+                            <td><input type="text" name="add_date" class="input_text news_title" dataType="Require" msg="评论时间必填" value="<{$date|date='Y-m-d H:i:s',###}>" ><span class="require-field">*</span>&nbsp;&nbsp;<font color="Gray">例：2011-12-04 03:43:25</font></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">回复内容：</td>
+                            <td><textarea name="reply" style="width:50%;border:1px solid #99CCFF" rows="4" dataType="LimitB" min="8" max="200"  msg="回复内容必须在[4,100]个字之内"></textarea><span class="require-field">*</span></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">回复时间：</td>
+                            <td><input type="text" name="reply_date" class="input_text news_title" dataType="Require" msg="回复时间必填" value="<{$date|date='Y-m-d H:i:s',###}>" ><span class="require-field">*</span>&nbsp;&nbsp;<font color="Gray">例：2011-12-04 03:43:25</font></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">评论商品的id：</td>
+                            <td><input type="text" name="goods_id" class="input_text news_title" dataType="Require" msg="评论商品的id必填" ><span class="require-field">*</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="hidden" name="show" value="1"></td>
+                            <td><input type="submit" value="提交"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->
+</div>
+<!-- /. WRAPPER  -->
+<!-- JS Scripts-->
+<!-- jQuery Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="{$Think.const.ADMIN_JS_URL}bootstrap.min.js"></script>
+
+<!-- Metis Menu Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery.metisMenu.js"></script>
+<!-- Morris Chart Js -->
+<script src="{$Think.const.ADMIN_JS_URL}raphael-2.1.0.min.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}morris.js"></script>
+
+
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart-data.js"></script>
+
+<script src="{$Think.const.ADMIN_JS_URL}jquery.chart.js"></script>
+
+<!-- Custom Js -->
+<script src="{$Think.const.ADMIN_JS_URL}custom-scripts.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>
+
+
+
+

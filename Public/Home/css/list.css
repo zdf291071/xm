@@ -1,0 +1,79 @@
+
+/*--S:分界线--*/
+.breadcrumbs{
+	background: #f5f5f5;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+}
+.breadcrumbs .bread_con{
+	width: 1226px;
+	margin: 0 auto;
+}
+.breadcrumbs .bread_con a{
+	color: #757575;
+}
+.breadcrumbs .bread_con span{
+	color: #b0b0b0;
+	margin: 0 0.5em;
+}
+/*--E:分界线--*/
+/*--S:content--*/
+.content{
+	width: 1226px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.content .con_list{
+	clear: both;
+	margin-top: -1px;
+	position: relative;
+	background: #fff;
+}
+.con_list .con_tit{
+	border-bottom: 1px solid #e0e0e0;
+	height: 60px;
+	padding-top: 14px;
+
+}
+.con_tit h2{
+	color: #ff6700;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0.83em 0;
+}
+.con_tit h2 i{
+	color: #b0b0b0;
+	margin-right: 20px;
+}
+.con_con{
+	overflow: hidden;
+}
+.con_con ul{
+	margin-right: -4px;
+}
+.con_con ul li{
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	float: left;
+	height: 136px;
+	padding-top: 24px;
+	text-align: center;
+	width: 245px;
+}
+.con_con ul li img{
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin: 0 auto 24px;
+}
+.con_con ul li b{
+	color: #757575;
+	font-weight: normal;
+}
+.con_con ul li b:hover{
+	color: #FF6700;
+}
+/*--E:content--*/

@@ -1,0 +1,135 @@
+<include file="Public:header"/>
+<style>
+    .panel-default th.group-title {
+        text-align: left;
+        font-weight:normal;
+        font-size:18px;
+        border:1px solid #E8E8E8;
+    }
+    .panel-default th {
+        border:1px solid #E8E8E8;
+        height:24px;
+        background:#ccc;
+        font-size:12px;
+        font-weight:700;
+        text-align:center;
+        color:#444;
+        padding-left:5px;
+    }
+
+    .panel-default td {
+        line-height: 22px;
+        padding:5px;
+    }
+
+    .panel-default td {
+        background:#fff;
+        border:1px solid #E8E8E8;
+    }
+
+</style>
+
+<body>
+<div id="wrapper">
+    <include file="Public:top"/>
+
+    <!--/. NAV TOP  -->
+    <include file="Public:menu"/>
+
+
+    <div id="page-wrapper">
+        <div class="header">
+            <h1 class="page-header">
+                <small>Welcome xiaomi</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="__ROOT__/index.php/Admin/Index">主页</a></li>
+                <li><a href="#">最新活动</a></li>
+                <li class="active">活动编辑</li>
+            </ol>
+
+        </div>
+
+        <div class="col-md-8 col-sm-12 col-xs-12" style="width:1060px;margin-left:16px;">
+
+
+            <div class="panel panel-default">
+
+                <form name="theForm" id="demo" action="__CONTROLLER__/update" method="post" onSubmit="return Validator.Validate(this,2)">
+                    <table width="100%" bgcolor="white">
+                        <tr>
+                            <td align="right">新闻标题：</td>
+                            <td><input type="text" value="{$data.news_title}" name="news_title" class="input_text news_title" dataType="Require" msg="新闻标题必填" maxlength="30" style="width:400px"><span class="require-field">*</span></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">发布日期：</td>
+                            <td>
+                                <input value="{$data.news_date}" type="text" class="input_text" name="news_date" id="f_rangeStart" dataType="Date" msg="生日日期不存在" value="<{$list.chusheng_date}>" maxlength="10" />
+                                <script type="text/javascript">
+                                    new Calendar({
+                                        inputField: "f_rangeStart",
+                                        dateFormat: "%Y-%m-%d",
+                                        trigger: "f_rangeStart",
+                                        bottomBar: false,
+                                        onSelect: function() { this.hide()}
+                                    });
+                                </script>
+                                <span class="require-field">*</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="right">新闻内容：</td>
+                            <td><textarea id="news_con" name="news_con" style="width:95%;height:400px">{$data.news_con}</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                                <input type="hidden" value="{$data.news_id}" name="news_id" />
+                                <input type="submit" class="button" value="确定提交">&nbsp;&nbsp;&nbsp;
+                                <input type="reset" class="button" value=" 重置 ">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->
+</div>
+<!-- /. WRAPPER  -->
+<!-- JS Scripts-->
+<!-- jQuery Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="{$Think.const.ADMIN_JS_URL}bootstrap.min.js"></script>
+
+<!-- Metis Menu Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery.metisMenu.js"></script>
+<!-- Morris Chart Js -->
+<script src="{$Think.const.ADMIN_JS_URL}raphael-2.1.0.min.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}morris.js"></script>
+
+
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart-data.js"></script>
+
+<script src="{$Think.const.ADMIN_JS_URL}jquery.chart.js"></script>
+
+<!-- Custom Js -->
+<script src="{$Think.const.ADMIN_JS_URL}custom-scripts.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+[ 2018-04-27T08:55:04+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-27T09:00:46+08:00 ] ::1 /xiaomi/index.php/Home/Car/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000191s ]
+ERR: 非法操作:data
+
+[ 2018-04-27T09:01:46+08:00 ] ::1 /xiaomi/index.php/Home/Car/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000109s ]
+ERR: 非法操作:data
+
+[ 2018-04-27T09:02:10+08:00 ] ::1 /xiaomi/index.php/Home/Car/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000155s ]
+ERR: 非法操作:data
+
+[ 2018-04-27T09:02:14+08:00 ] ::1 /xiaomi/index.php/Home/Car/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000098s ]
+ERR: 非法操作:data
+
+[ 2018-04-27T09:02:28+08:00 ] ::1 /xiaomi/index.php/Home/Car/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000117s ]
+ERR: 非法操作:data
+
+[ 2018-04-27T09:02:33+08:00 ] ::1 /xiaomi/index.php/Home/Car/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000136s ]
+ERR: 非法操作:data
+
+[ 2018-04-27T09:03:10+08:00 ] ::1 /xiaomi/index.php/Home/Car/Public/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000133s ]
+ERR: 非法操作:Public
+
+[ 2018-04-27T09:03:28+08:00 ] ::1 /xiaomi/index.php/Home/Car/Public/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000149s ]
+ERR: 非法操作:Public
+
+[ 2018-04-27T09:03:43+08:00 ] ::1 /xiaomi/index.php/Home/data/cartData.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002474s ]
+ERR: 无法加载控制器:data
+
+[ 2018-04-27T09:07:43+08:00 ] ::1 /xiaomi/index.php/Home/Car/re_car.html
+ERR: 非法操作:re_car
+
+[ 2018-04-27T10:41:31+08:00 ] 127.0.0.1 /xiaomi/index.php/Home/Car/mycar
+ERR: Unknown database 'xmshop'
+
+[ 2018-04-27T13:37:58+08:00 ] ::1 /xm/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+

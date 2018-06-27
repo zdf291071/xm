@@ -1,0 +1,527 @@
+[ 2018-04-24T08:11:53+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T08:11:58+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:12:01+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T08:12:06+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002899s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000218s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:15:11+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003446s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000180s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:15:20+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002904s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000205s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:15:51+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000135s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:16:01+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000211s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:16:49+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000139s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:16:57+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005806s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000142s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:23:20+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000168s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:23:24+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005455s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000257s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:23:26+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:24:11+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:25:06+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:26:11+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:26:34+08:00 ] ::1 /xiaomi/index.php/Home/main.js
+ERR: 无法加载控制器:main.js
+
+[ 2018-04-24T08:26:41+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000210s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:26:47+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003284s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000196s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:27:59+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000217s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:28:03+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000183s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:28:09+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:28:33+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:29:05+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:29:43+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:29:46+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000216s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:29:52+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010912s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000195s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:29:55+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:31:34+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:32:42+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:32:42+08:00 ] ::1 /xiaomi/index.php/Home/Car/pms_1482392555.22071382!220x22
+ERR: 非法操作:pms_1482392555.22071382!220x22
+
+[ 2018-04-24T08:33:32+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:35:38+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000181s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:35:43+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000196s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:35:45+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:35:57+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003148s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000221s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:36:20+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000228s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:36:25+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000196s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:36:27+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:39:13+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:39:16+08:00 ] ::1 /xiaomi/index.php/Home/Car/U('Home/Car/del_mycar',array('id'=%3E$v.id))
+ERR: 非法操作:U('Home
+
+[ 2018-04-24T08:39:18+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:39:33+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:39:36+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:39:56+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:40:00+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:42:22+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:42:28+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:44:19+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:45:41+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:45:57+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:46:01+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:46:18+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:46:56+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:47:06+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:47:13+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:47:21+08:00 ] ::1 /xiaomi/index.php/Home/List/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000224s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T08:47:24+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:47:39+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:47:42+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T08:47:48+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:49:10+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:49:30+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:49:41+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:50:13+08:00 ] ::1 /xiaomi/index.php/Home/Car/register.html
+ERR: 非法操作:register
+
+[ 2018-04-24T08:50:15+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:50:55+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:51:07+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:52:10+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:57:01+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T08:57:05+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:38:19+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:40:06+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:41:18+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000164s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T14:41:21+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:43:04+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:43:26+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:43:36+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:45:10+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:45:22+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T14:45:26+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T14:45:34+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000148s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T14:45:40+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002671s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000189s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T14:45:44+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T14:47:33+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T14:47:34+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000138s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T14:47:38+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000156s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T14:48:01+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000136s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T14:48:02+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T14:48:23+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T14:48:42+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T14:49:03+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T14:49:44+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T21:05:04+08:00 ] ::1 /xiaomi/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2018-04-24T21:38:39+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T21:40:52+08:00 ] ::1 /xiaomi/index.php/Home/Index/main.js
+ERR: 非法操作:main.js
+
+[ 2018-04-24T21:40:56+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000177s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T21:41:30+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000165s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T21:42:43+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000131s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T21:43:00+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004497s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000344s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T21:43:11+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000158s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T21:43:15+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000152s ]
+ERR: 非法操作:date
+
+[ 2018-04-24T21:43:19+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T21:43:34+08:00 ] ::1 /xiaomi/index.php/Home/Car/register.html
+ERR: 非法操作:register
+
+[ 2018-04-24T21:43:36+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T21:47:21+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T21:58:56+08:00 ] ::1 /xiaomi/index.php/Home/Car/icomoon/style.css
+ERR: 非法操作:icomoon
+
+[ 2018-04-24T22:04:46+08:00 ] ::1 /xiaomi/index.php/Home/Index/date/db.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() E:\PHP\wamp\www\xiaomi\Application\Home\Controller\IndexController.class.php 第 5 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000236s ]
+ERR: 非法操作:date
+

@@ -1,0 +1,115 @@
+<include file="Public:header"/>
+<style>
+
+    .panel-default th.group-title {
+        text-align: left;
+        font-weight:normal;
+        font-size:18px;
+        border:1px solid #E8E8E8;
+    }
+    .panel-default th {
+        border:1px solid #E8E8E8;
+        height:24px;
+        background:#ccc;
+        font-size:12px;
+        font-weight:700;
+        text-align:center;
+        color:#444;
+        padding-left:5px;
+    }
+
+    .panel-default td {
+        line-height: 22px;
+        padding:5px;
+    }
+
+    .panel-default td {
+        background:#fff;
+        border:1px solid #E8E8E8;
+    }
+
+</style>
+
+<body>
+<div id="wrapper">
+    <include file="Public:top"/>
+    <!--/. NAV TOP  -->
+    <include file="Public:menu"/>
+
+    <div id="page-wrapper">
+        <div class="header">
+            <h1 class="page-header">
+                <small>Welcome xiaomi</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="__ROOT__/index.php/Admin/Index">主页</a></li>
+                <li><a href="#">会员管理</a></li>
+                <li class="active">会员列表</li>
+            </ol>
+
+        </div>
+
+        <div class="col-md-8 col-sm-12 col-xs-12" style="width:1060px;margin-left:16px;">
+
+
+            <div class="panel panel-default">
+                <table width="100%" cellspacing="1" cellpadding="3">
+                    <tr>
+                        <th>用户编号</th>
+                        <th>用户名</th>
+                        <th>权限ID</th>
+                        <th>身份</th>
+                        <th>操作</th>
+                    </tr>
+                    <volist name="data" id="v" key="k">
+                        <tr>
+                            <td class="first-cell">{$v.id}</td>
+                            <td align="left">{$v.username}</td>
+                            <td align="center">{$v.gid}</td>
+                            <td align="center">{$v.status}</td>
+                            <td align="center">
+                                <a title="编辑" href="{:U('Admin/Admin/edit_admin')}?id={$v.id}"><img height="16" width="16" border="0" src="{$Think.const.ADMIN_IMG_URL}icon_edit.gif"></a>&nbsp;&nbsp;
+                                <a title="移除" href="{:U('Admin/del_admin')}?id={$v.id}"><img height="16" width="16" border="0" src="{$Think.const.ADMIN_IMG_URL}icon_drop.gif"></a></td>
+                        </tr>
+                    </volist>
+                </table>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->
+</div>
+<!-- /. WRAPPER  -->
+<!-- JS Scripts-->
+<!-- jQuery Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="{$Think.const.ADMIN_JS_URL}bootstrap.min.js"></script>
+
+<!-- Metis Menu Js -->
+<script src="{$Think.const.ADMIN_JS_URL}jquery.metisMenu.js"></script>
+<!-- Morris Chart Js -->
+<script src="{$Think.const.ADMIN_JS_URL}raphael-2.1.0.min.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}morris.js"></script>
+
+
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart.js"></script>
+<script src="{$Think.const.ADMIN_JS_URL}easypiechart-data.js"></script>
+
+<script src="{$Think.const.ADMIN_JS_URL}jquery.chart.js"></script>
+
+<!-- Custom Js -->
+<script src="{$Think.const.ADMIN_JS_URL}custom-scripts.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>
